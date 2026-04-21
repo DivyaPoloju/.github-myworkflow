@@ -16,4 +16,6 @@ jobs:
           java-version: '17'
           distribution: 'temurin'
 
-      - run: gradle build
+      - name: Build project
+        run: gradle build
+        working-directory: github-myworkflow
